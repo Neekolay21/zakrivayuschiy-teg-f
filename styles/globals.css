@@ -8,8 +8,10 @@
   box-sizing: border-box;
 }
 
-body {
+.page {
   margin: 0;
+  font-family: var(--main-font), sans-serif;
+  font-variation-settings: 'wght' var(--paragraph-weight);
 }
 
 h1,
