@@ -13,7 +13,7 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  background-image: linear-gradient(#e7e7e7, #1a1a1a);
+  font-family: var(--main-font), sans-serif;
 }
 
 .header {
@@ -23,14 +23,36 @@
   border: 2px solid #000;
   width: clamp(375px, 80%, 700px);
   margin: 100px auto;
-  padding: clamp(120px, 80%, 128px) /*clamp(14px, 80%, 120.5px)*/;
+  padding: clamp(120px, 80%, 128px);
   font-family: var(--accent-font);
 }
 
 .header-logo {
-  font-size: clamp(49px, 80%, 65px);
+  font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
 }
 
 .header-title {
-  font-size: clamp(14px, 80%, 23px);
+  font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  width: 345px;
+  text-align: center;
+}
+
+.card-list{
+  width: clamp(375px, 80%, 696px);
+  margin: 0 auto;
+}
+
+.card-list-item {
+  border: 2px solid #000;
+  margin-bottom: 50px;
+}
+
+.card-title {
+  font-size: 18px;
+  line-height: 21.78px;
+  margin: 3px 10px;
+}
+
+.card-content {
+  margin: 27px 25px 0 25px;
 }
